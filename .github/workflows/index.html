@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>¿Qué es una Derivada?</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Inter,Arial,sans-serif;background:radial-gradient(circle at top right,#1d4ed8,#0f172a 55%,#020617);color:#e2e8f0;min-height:100vh;overflow-x:hidden}.blob{position:fixed;border-radius:50%;filter:blur(70px);opacity:.35;z-index:0}.b1{width:240px;height:240px;background:#22d3ee;top:8%;left:8%}.b2{width:300px;height:300px;background:#a855f7;bottom:10%;right:5%}.wrap{position:relative;z-index:1;max-width:1100px;margin:auto;padding:40px 20px}.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:24px;align-items:center}.card{background:rgba(255,255,255,.08);backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.12);padding:28px;border-radius:28px;box-shadow:0 20px 60px rgba(0,0,0,.35)}h1{font-size:clamp(2rem,5vw,4rem);margin:0 0 12px}.tag{display:inline-block;padding:8px 14px;border-radius:999px;background:rgba(34,211,238,.16);color:#67e8f9;font-weight:700;margin-bottom:14px}.lead{font-size:1.15rem;line-height:1.7;color:#cbd5e1}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:24px}.mini{padding:22px;border-radius:22px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1)}.mini h3{margin-top:0}.formula{font-size:1.6rem;text-align:center;padding:18px;border-radius:18px;background:linear-gradient(135deg,rgba(34,211,238,.18),rgba(168,85,247,.18));margin:18px 0;font-weight:700}.chart{height:320px;position:relative}.axisX,.axisY,.curve,.tan{position:absolute}.axisX{height:2px;background:#94a3b8;left:8%;right:8%;top:72%}.axisY{width:2px;background:#94a3b8;top:8%;bottom:8%;left:28%}.curve{width:72%;height:58%;left:20%;top:18%;border:4px solid #22d3ee;border-color:#22d3ee transparent transparent transparent;border-radius:50% 60% 0 0;transform:rotate(-12deg)}.tan{width:52%;height:3px;background:#f472b6;left:34%;top:46%;transform:rotate(-22deg);box-shadow:0 0 18px #f472b6}.footer{text-align:center;margin-top:24px;color:#94a3b8}@media(max-width:860px){.hero{grid-template-columns:1fr}}</style>
+</head>
+<body>
+<div class='blob b1'></div><div class='blob b2'></div>
+<div class='wrap'>
+<section class='hero'>
+<div class='card'>
+<div class='tag'>Cálculo Diferencial</div>
+<h1>¿Qué es una derivada?</h1>
+<p class='lead'>La derivada mide <strong>qué tan rápido cambia</strong> una función en un punto específico. Es una herramienta para conocer velocidad, crecimiento, pendiente y comportamiento instantáneo.</p>
+<div class='formula'>f'(x) = lim h→0 [f(x+h)-f(x)] / h</div>
+<p class='lead'>En palabras simples: compara un cambio muy pequeño en la entrada con el cambio producido en la salida.</p>
+</div>
+<div class='card chart'>
+<div class='axisX'></div><div class='axisY'></div><div class='curve'></div><div class='tan'></div>
+<p style='position:absolute;bottom:14px;left:18px;color:#cbd5e1'>La línea rosa representa la pendiente instantánea.</p>
+</div>
+</section>
+<section class='grid'>
+<div class='mini'>
+<h3>📈 Pendiente</h3>
+<p>La derivada indica la inclinación de la curva en un punto.</p>
+</div>
+<div class='mini'>
+<h3>🚗 Velocidad</h3>
+<p>Si la posición depende del tiempo, la derivada es la velocidad.</p>
+</div>
+<div class='mini'>
+<h3>💹 Optimización</h3>
+<p>Sirve para hallar máximos, mínimos y puntos críticos.</p>
+</div>
+<div class='mini'>
+<h3>🌱 Cambio</h3>
+<p>Modela crecimiento poblacional, costos, temperatura y más.</p>
+</div>
+</section>
+<div class='card' style='margin-top:24px'>
+<h2>Ejemplo rápido</h2>
+<p>Si f(x)=x², entonces su derivada es f'(x)=2x.</p>
+<p>Eso significa que en x=3 la pendiente vale 6, por lo que la función está creciendo rápidamente en ese punto.</p>
+</div>
+<p class='footer'>Diseño moderno HTML + CSS • Página educativa sobre derivadas</p>
+</div>
+</body>
+</html>
